@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <h1>Start MVCDEMO project</h1>
-<h1>${s1}</h1>
 </body>
 </html>

@@ -8,15 +8,15 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class demo {
 	
-		@GetMapping("/demo123")
+		@GetMapping("/demo12")
 		public ModelAndView name(){
 			
 			
-			String a="------- welcome MVCDEMO project page ---------";
+			String st1="Welcome MVCDEMO project page";
 			
 			ModelAndView n=new ModelAndView();
-			n.addObject("s1", a);
-			n.setViewName("page1");
+			n.addObject("s", st1);
+			n.setViewName("page2");
 			
 			return n;
 	}
